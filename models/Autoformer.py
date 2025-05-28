@@ -3,7 +3,7 @@ import torch.nn as nn
 from layers.Embed import DataEmbedding_wo_pos
 from layers.AutoCorrelation import AutoCorrelation, AutoCorrelationLayer
 from layers.Autoformer_EncDec import Encoder, Decoder, EncoderLayer, DecoderLayer, my_Layernorm, series_decomp
-
+## 此处添加是为了验证git工具如何使用
 
 class Model(nn.Module):
     """
